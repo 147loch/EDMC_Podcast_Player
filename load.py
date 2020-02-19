@@ -20,10 +20,10 @@ def plugin_start(plugin_dir):
     explore_rss_feed(rss_feed)
 
     rss_feed_item_url = get_rss_feed_item_url(rss_feed, 0)
-    #download_audio(rss_feed_item_url)
+    downloaded_audio = download_audio(rss_feed_item_url)
     #save_file = 'downloads/lr0.mp3'
     #download_audio(rss_feed_item_url, 0, save_file)
-    #play_audio(save_file)
+    play_audio(downloaded_audio)
     return "Test"
 
 
@@ -54,15 +54,16 @@ def get_rss_feed_item_url(rss_feed, index):
     return None
 
 def download_audio(rss_feed_item_url):
-    finename_index = rss_feed_item_url.rfind('/')
-    file_name = "downloads/" + rss_feed_item_url[finename_index+1:]
+    filename_index = rss_feed_item_url.rfind('/')
+    file_name = "downloads/" + rss_feed_item_url[filename_index+1:]
     download_file = Path(file_name)
     if (not(download_file.exists())):
         print("Downloading " + rss_feed_item_url)
-        getsize = os.path.getsize(file_name)
+        # getsize = os.path.getsize(file_name)
         urllib.request.urlretrieve(rss_feed_item_url, file_name)
     else:
         print(rss_feed_item_url + " already exists")
+    return file_name
 
 
 
