@@ -102,6 +102,8 @@ def plugin_stop():
     EDMC is closing
     """
     print("Farewell cruel world!")
+    pos = player.get_pos()
+    print("Audio pos [" + str(pos) + "]")
 
 
 OPML_FILE = 'feeds.opml'

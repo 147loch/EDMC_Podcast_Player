@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-<opml version="1.0">
-  <head>
-    <title>PodcastAddict registration feeds</title>
-    <dateCreated>19 Feb 2020 09:54:33</dateCreated>
-    <dateModified>19 Feb 2020 09:54:33</dateModified>
-  </head>
-  <body>
-    <outline text="Astronomy Cast" type="rss" xmlUrl="https://astronomycast.libsyn.com/rss" htmlUrl="http://www.astronomycast.com" />
-    <outline text="Beyond:Dockers : Podcast Episode" type="rss" xmlUrl="http://feeds.feedburner.com/Dockers" htmlUrl="https://bs-dockers.co.uk" />
-    <outline text="Critical Role" type="rss" xmlUrl="https://critrole.podbean.com/feed.xml" htmlUrl="https://critrole.podbean.com" />
-    <outline text="Elite: Escape Velocity" type="rss" xmlUrl="http://laveradio.com/feed/escapevelocity.xml" htmlUrl="http://escapevelocity.laveradio.com" />
-    <outline text="Galnet News Digest" type="rss" xmlUrl="http://feeds.feedburner.com/Galnetnews" htmlUrl="https://laveradio.com/" />
-    <outline text="Lave Radio: an Elite Dangerous podcast" type="rss" xmlUrl="http://laveradio.com/feed/laveradio.xml" htmlUrl="https://laveradio.com" />
-    <outline text="Loose Screws - The Elite Dangerous Podcast" type="rss" xmlUrl="https://anchor.fm/s/d698f68/podcast/rss" htmlUrl="https://anchor.fm/loosescrews" />
-    <outline text="Parallel Worlds" type="rss" xmlUrl="https://www.parallelworlds.uk/feed/podcast/" htmlUrl="https://www.parallelworlds.uk" />
-    <outline text="Sagittarius Eye Podcast: Elite Dangerous' leading news network" type="rss" xmlUrl="https://podcast.sagittarius-eye.com/feed/sagi.xml" htmlUrl="https://www.sagittarius-eye.com/" />
-    <outline text="StarTalk Radio" type="rss" xmlUrl="https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/43816ad6-9ef9-4bd5-9694-aadc001411b2/808b901f-5d31-4eb8-91a6-aadc001411c0/podcast.rss" htmlUrl="https://art19.com/shows/startalk-radio" />
-    <outline text="The Adventure Zone" type="rss" xmlUrl="https://feeds.simplecast.com/cYQVc__c" htmlUrl="https://adventurezone.simplecast.com" />
-    <outline text="The Babylon Podcast" type="rss" xmlUrl="https://www.babylonpodcast.com/feed/podcast/" htmlUrl="https://www.babylonpodcast.com" />
-    <outline text="The Churn: A Podcast About The Expanse" type="rss" xmlUrl="https://rss.art19.com/the-expanse" htmlUrl="https://www.syfy.com/tags/the-churn" />
-    <outline text="The Tightbeam" type="rss" xmlUrl="http://feeds.feedburner.com/thetightbeam" htmlUrl="http://randomchatter.com/category/podcasts/entertainment/tightbeam/" />
-  </body>
-</opml>
+       <opml version="1.0">
+         <head>
+           <title>PodcastAddict registration feeds</title>
+           <dateCreated>19 Feb 2020 09:54:33</dateCreated>
+           <dateModified>19 Feb 2020 09:54:33</dateModified>
+         </head>
+         <body>
+           <outline text="Astronomy Cast" type="rss" xmlUrl="https://astronomycast.libsyn.com/rss" htmlUrl="http://www.astronomycast.com" />
+           <outline text="Beyond:Dockers : Podcast Episode" type="rss" xmlUrl="http://feeds.feedburner.com/Dockers" htmlUrl="https://bs-dockers.co.uk" />
+           <outline text="Critical Role" type="rss" xmlUrl="https://critrole.podbean.com/feed.xml" htmlUrl="https://critrole.podbean.com" />
+           <outline text="Elite: Escape Velocity" type="rss" xmlUrl="http://laveradio.com/feed/escapevelocity.xml" htmlUrl="http://escapevelocity.laveradio.com" />
+           <outline text="Galnet News Digest" type="rss" xmlUrl="http://feeds.feedburner.com/Galnetnews" htmlUrl="https://laveradio.com/" />
+           <outline text="Lave Radio: an Elite Dangerous podcast" type="rss" xmlUrl="http://laveradio.com/feed/laveradio.xml" htmlUrl="https://laveradio.com" />
+           <outline text="Loose Screws - The Elite Dangerous Podcast" type="rss" xmlUrl="https://anchor.fm/s/d698f68/podcast/rss" htmlUrl="https://anchor.fm/loosescrews" />
+           <outline text="Parallel Worlds" type="rss" xmlUrl="https://www.parallelworlds.uk/feed/podcast/" htmlUrl="https://www.parallelworlds.uk" />
+           <outline text="Sagittarius Eye Podcast: Elite Dangerous' leading news network" type="rss" xmlUrl="https://podcast.sagittarius-eye.com/feed/sagi.xml" htmlUrl="https://www.sagittarius-eye.com/" />
+           <outline text="StarTalk Radio" type="rss" xmlUrl="https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/43816ad6-9ef9-4bd5-9694-aadc001411b2/808b901f-5d31-4eb8-91a6-aadc001411c0/podcast.rss" htmlUrl="https://art19.com/shows/startalk-radio" />
+           <outline text="The Adventure Zone" type="rss" xmlUrl="https://feeds.simplecast.com/cYQVc__c" htmlUrl="https://adventurezone.simplecast.com" />
+           <outline text="The Babylon Podcast" type="rss" xmlUrl="https://www.babylonpodcast.com/feed/podcast/" htmlUrl="https://www.babylonpodcast.com" />
+           <outline text="The Churn: A Podcast About The Expanse" type="rss" xmlUrl="https://rss.art19.com/the-expanse" htmlUrl="https://www.syfy.com/tags/the-churn" />
+           <outline text="The Tightbeam" type="rss" xmlUrl="http://feeds.feedburner.com/thetightbeam" htmlUrl="http://randomchatter.com/category/podcasts/entertainment/tightbeam/" />
+         </body>
+       </opml>

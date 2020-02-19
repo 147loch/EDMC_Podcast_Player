@@ -55,6 +55,10 @@ class Player(object):
         self.music_playing = True
         return True
 
+    def get_pos(self):
+        pos = pygame.mixer.music.get_pos()
+        return pos
+
 
 SONG_END = 2514
 player = Player()
