@@ -1,8 +1,7 @@
 import listparser
 import feedparser
-import urllib.request
+from six.moves import urllib
 import os.path
-
 from pathlib import Path
 from player import player
 
@@ -108,6 +107,6 @@ def plugin_stop():
 
 OPML_FILE = 'feeds.opml'
 plugin_start('.')
-anyKey = input("Press any key to stop...")
+anyKey = input("Enter command...")
 print(anyKey + " isn't the any key, but I'll stop anyway!")
 plugin_stop()
