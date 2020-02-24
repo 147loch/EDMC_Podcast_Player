@@ -1,0 +1,5 @@
+six>=1.14.0
+listparser>=0.18
+feedparser>=5.2.1
+pathlib
+pygame>=1.9.6
