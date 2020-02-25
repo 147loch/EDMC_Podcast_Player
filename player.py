@@ -1,5 +1,16 @@
-import pygame
-from pygame import mixer  # Load the popular external library
+import sys
+import os.path
+
+this = sys.modules[__name__]
+
+if sys.version_info[0] < 3:
+    sys.path.append(os.path.join(os.path.dirname(
+        os.path.realpath(__file__)), 'pygame2'))
+    import pygame
+else:
+    sys.path.append(os.path.join(os.path.dirname(
+        os.path.realpath(__file__)), 'pygame3'))
+    import pygame
 
 
 class Player(object):
