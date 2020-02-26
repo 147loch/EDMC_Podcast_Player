@@ -128,7 +128,3 @@ def plugin_stop():
     print("Audio pos [" + str(pos) + "]")
 
 
-plugin_start('.')
-anyKey = input("Enter command...")
-print(anyKey + " isn't the any key, but I'll stop anyway!")
-plugin_stop()
