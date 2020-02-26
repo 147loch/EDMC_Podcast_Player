@@ -1,16 +1,17 @@
-import sys
 import os.path
-
-this = sys.modules[__name__]
+import sys
 
 if sys.version_info[0] < 3:
     sys.path.append(os.path.join(os.path.dirname(
-        os.path.realpath(__file__)), 'pygame2'))
+        os.path.realpath(__file__)), 'Lib', 'python2'))
     import pygame
 else:
     sys.path.append(os.path.join(os.path.dirname(
-        os.path.realpath(__file__)), 'pygame3'))
+        os.path.realpath(__file__)), 'Lib', 'python3'))
     import pygame
+
+
+this = sys.modules[__name__]
 
 
 class Player(object):

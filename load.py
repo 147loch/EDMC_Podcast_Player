@@ -1,12 +1,21 @@
 # -*- coding: utf-8 -*-
 
-import listparser
-import feedparser
+from Lib import feedparser
+from player import player
 import requests
 import os.path
 import sys
 import io
-from player import player
+
+if sys.version_info[0] < 3:
+    sys.path.append(os.path.join(os.path.dirname(
+        os.path.realpath(__file__)), 'Lib', 'python2'))
+    from Lib import listparser
+else:
+    sys.path.append(os.path.join(os.path.dirname(
+        os.path.realpath(__file__)), 'Lib', 'python3'))
+    from Lib import listparser
+
 
 this = sys.modules[__name__]
 
@@ -126,5 +135,3 @@ def plugin_stop():
     print("Farewell cruel world!")
     pos = player.get_pos()
     print("Audio pos [" + str(pos) + "]")
-
-
